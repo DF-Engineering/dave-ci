@@ -1,5 +1,5 @@
 # dave-launcher
-Listens to queue and performs certain actions based on the content in the message.
+Listens to a queue and performs certain actions based on the content in the queue message.
 
 ## Workflow
 
