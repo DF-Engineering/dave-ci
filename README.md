@@ -1,11 +1,10 @@
 # dave-ci
-Listens to a queue and performs certain actions based on the content in the queue message.
+Listens to a queue and performs certain actions based on the content in the message.
 
 ## Workflow
 
 When 'dave-launcher' starts, it runs 'listener.sh' script in a loop. 
 listener.sh script does the following: 
-  - Configure Cloud Credentials
   - Downloads the Kubernetes configuration
   - Download templates from 'dave-core' Repo locally
   - Starts a 'while' loop to listens over a queue
