@@ -1,4 +1,4 @@
-# dave-launcher
+# dave-ci
 Listens to a queue and performs certain actions based on the content in the queue message.
 
 ## Workflow
